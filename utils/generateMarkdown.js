@@ -27,19 +27,19 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'apache':
-      return https://opensource.org/licenses/Apache-2.0
+      return 'https://opensource.org/licenses/Apache-2.0'
       break;
     case 'bsd':
-      return https://opensource.org/licenses/BSD-2-Clause
+      return `https://opensource.org/licenses/BSD-2-Clause`
       break;
     case 'gnu':
-      return https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.en.html
+      return `https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.en.html`
       break;
     case 'mit':
-      return https://opensource.org/licenses/MIT
+      return `https://opensource.org/licenses/MIT`
       break;
     case 'mozilla':
-      return https://opensource.org/licenses/MPL-2.0
+      return `https://opensource.org/licenses/MPL-2.0`
       break;
     default:
       return " "
