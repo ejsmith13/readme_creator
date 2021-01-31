@@ -12,7 +12,7 @@ const questions = [
   { name:"test", message: "What command should be used to run tests?", type: "input"},
   { name: "description", message: "Please describe your project", type: "input" },
   { name: "tech", message: "Select the technologies you used in this project", type: "checkbox", choices: ["HTML", "CSS", "JavaScript", "Bootstrap"]},
-  { name: "license", message: "Which type of license would you like to use?", type: "list", choices: ["Apache","BSD 2-Clause License", "GNU GPL v2","MIT", "Mozzila"]}
+  { name: "license", message: "Which type of license would you like to use?", type: "list", choices: ["Apache","BSD 2-Clause License", "GNU GPL v2","MIT", "Mozilla"]}
 ];
 
 // TODO: Create a function to write README file
@@ -34,10 +34,7 @@ function init() {
 
     const answer= generateMarkdown.createMarkdown(response)
 
-    writeToFile("example.md", answer)
-  
-
-  
+    writeToFile("README.md", answer)
   })
   
 }

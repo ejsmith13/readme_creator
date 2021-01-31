@@ -519,23 +519,24 @@ function createMarkdown(data) {
   * [Questions](#questions)\n
   * [License](#license)\n
   \n--------------------------------------\n
-  ## Installation\n
-  To install the necessary dependencies use the following command:
-  
-  ${install}
-  
-  \n--------------------------------------\n
-  ## Tests\n
-  To run tests use the following command:
-  
-  ${test}
-  
-  \n--------------------------------------\n
   ## Description:\n
 
   ${description}\n
 
   \n--------------------------------------\n
+  ## Installation\n
+  To install the necessary dependencies use the following command:
+  
+      ${install}
+  
+  \n--------------------------------------\n
+  ## Tests\n
+  To run tests use the following command:
+  
+      ${test}
+  
+  \n--------------------------------------\n
+ 
   ## Technologies Used
   For this project I used:\n
 
