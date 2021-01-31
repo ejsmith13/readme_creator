@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch (license) {
@@ -22,7 +22,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
+// function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch (license) {
@@ -46,7 +46,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license, name) {
   switch (license) {
@@ -492,8 +492,9 @@ function renderLicenseSection(license, name) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//function to generate markdown for README
 function createMarkdown(data) {
+  //destructing the data coming in
   const {
     name,
     title,
@@ -504,17 +505,22 @@ function createMarkdown(data) {
     email,
     install,
     test,
+    usage,
+    contributing
   } = data;
+  //functions to render badge, link, and info for each license
   const badge = renderLicenseBadge(license);
   const link = renderLicenseLink(license);
   const section = renderLicenseSection(license, name);
-
+  //file that gets added to final readme
   const file = `# ${title}\n
   ${badge}\n
   ## Table of Contents\n
   * [Description](#description)\n
   * [Installation](#installation)\n
   * [Tests](#tests)\n
+  * [Usage](#usage)
+  * [Contributing](#contributing)\n
   * [Technologies](#technologies)\n
   * [Questions](#questions)\n
   * [License](#license)\n
@@ -535,6 +541,16 @@ function createMarkdown(data) {
   
       ${test}
   
+  \n--------------------------------------\n
+  ## Usage:\n
+
+  ${usage}\n
+
+  \n--------------------------------------\n
+  ## Contributing:\n
+
+  ${contributing}\n
+
   \n--------------------------------------\n
  
   ## Technologies Used
