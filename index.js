@@ -6,7 +6,8 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const questions = [
   { name: "name", message: "what is your name?", type: "input" },
   { name: "age", message: "What is your Age?", type: "input" },
-  { name:"title", message: "What is the Title of your project?", type: "input"}
+  { name:"title", message: "What is the Title of your project?", type: "input"},
+  { name: "license", message: "Which type of license would you like to use?", type: "list", choices: ["Apache","BSD 2-Clause License", "GNU GPL v2","MIT", "Mozzila"]}
 ];
 
 // TODO: Create a function to write README file
@@ -28,7 +29,7 @@ function init() {
 
     const answer= generateMarkdown.createMarkdown(response)
 
-    writeToFile("test.md", answer)
+    writeToFile("example.md", answer)
   
 
   
