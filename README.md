@@ -83,7 +83,11 @@
   ## Screenshots
   Screenshots:
 
-  ![alt text](assets/images/screenshot_readme.png)
+  ![readme_screenshot](assets/images/screenshot_readme.png)
+
+  Video walk through of program:
+
+  ![video_walkthrough_of_program](assets/video/readme_demo.mp4)
 
   
   

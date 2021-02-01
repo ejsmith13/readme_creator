@@ -32,7 +32,7 @@ function init() {
  
     const answer= generateMarkdown.createMarkdown(response)
 
-    writeToFile("README.md", answer)
+    writeToFile("video.md", answer)
   })
   
 }
