@@ -87,7 +87,7 @@
 
   Video walk through of program:
 
-  ![video_walkthrough_of_program](assets/video/readme_demo.mp4)
+  [View video here!](https://drive.google.com/file/d/1l7GNzrny_UWR_kS_tq2ot5eWzyV3M87A/view)
 
   
   
