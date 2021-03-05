@@ -11,7 +11,7 @@ const questions = [
   { name: "install", message: "What command installs dependencies", type: "input"},
   { name: "test", message: "What command should be used to run tests?", type: "input"},
   { name: "description", message: "Please describe your project", type: "input" },
-  { name: "tech", message: "Select the technologies you used in this project", type: "checkbox", choices: ["HTML", "CSS", "JavaScript", "Bootstrap"]},
+  { name: "tech", message: "Select the technologies you used in this project", type: "checkbox", choices: ["HTML", "CSS", "JavaScript", "Bootstrap", "Heroku", "MySql", "Sequelize", "NodeJS", "Handlebars"]},
   { name: "usage", message: "What does the user need to know about using the repo", type: "input"},
   { name:  "contributing", message: "What does the user need to know about contributing to the repo?", type: "input"},
   { name: "license", message: "Which type of license would you like to use?", type: "list", choices: ["Apache","BSD 2-Clause License", "GNU GPL v2","MIT", "Mozilla"]}
