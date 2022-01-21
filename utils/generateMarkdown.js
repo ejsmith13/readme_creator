@@ -517,6 +517,7 @@ function createMarkdown(data) {
   ${badge}\n
   ## Table of Contents\n
   * [Description](#description)\n
+  * [Screenshots](#screenshots)\n
   * [Installation](#installation)\n
   * [Tests](#tests)\n
   * [Usage](#usage)
@@ -528,6 +529,11 @@ function createMarkdown(data) {
   ## Description:\n
 
   ${description}\n
+
+  \n--------------------------------------\n
+  ## Screenshots:\n
+
+  
 
   \n--------------------------------------\n
   ## Installation\n
